@@ -1,0 +1,36 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1.5fr 0.6fr 0.9fr; 
+    grid-template-rows: 0.2fr 1.8fr 2.3fr 0.3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "navbar navbar navbar"
+      "hello image image"
+      "introduction introduction introduction"
+      "footer footer footer"; 
+}
+
+  .navbar { 
+    grid-area: navbar;
+    border: 1px solid red;
+}
+
+  .hello { 
+    grid-area: hello; 
+    border: 1px solid green;
+}
+
+  .image { 
+    grid-area: image;     
+    border: 1px solid blue;
+}
+
+  .introduction { 
+    grid-area: introduction; 
+    border: 1px solid yellow;
+}
+
+  .footer { 
+    grid-area: footer; 
+    border: 1px solid magenta;
+}
