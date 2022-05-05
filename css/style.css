@@ -2,9 +2,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(241, 241, 241);
-  color: rgb(0, 0, 0);
-  width: 100%;
+  background-color: #202324;
+  color: #fff;
+  width: 99%;
 
 }
 
@@ -12,9 +12,10 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  max-width: 98%;
   }
   
 .navbar { 
@@ -22,19 +23,14 @@ body {
 }
 
 .intro { 
-  grid-area: 2 / 1 / 4 / 6; 
+  grid-area: 2 / 1 / 4 / 6;
 }
 
 .skills { 
     
   grid-area: 4 / 1 / 6 / 6;
-  background-color: rgb(255, 255, 255);
+  background-color: #181A1B;
 }
-
-.footer { 
-  grid-area: 6 / 1 / 7 / 6;
-  background-color: rgb(255, 255, 255);
-} 
 
 /* % circles progress bars */
 
@@ -74,12 +70,12 @@ body {
   width: 124px;
   height: 124px;
   border-radius: 50%;
-  background: #fff;
+  background: rgb(26, 26, 26);
   line-height: 120px;
   text-align: center;
   margin-top: 13px;
   margin-left: 13px;
-  color: black;
+  color: #fff;
   position: absolute;
   z-index: 100;
   font-weight: 700;
@@ -178,8 +174,8 @@ nav{
   display: flex;
   position: absolute;
   top:0;
-  width: 100%;
-  background-color: rgb(241, 241, 241);
+  width: 99%;
+  background-color: #181A1B;
   overflow: auto;
   height: auto;
 }
@@ -192,7 +188,7 @@ nav{
   display: inline-block;
   text-align: center;
   padding: 14px;
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-decoration: none;
   font-size: 17px;
   font-weight: bolder;
@@ -203,7 +199,7 @@ nav{
   margin-right: 36%;
   text-align: center;
   padding: 14px;
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-decoration: none;
   font-size: 30px;
   font-weight: bolder;
