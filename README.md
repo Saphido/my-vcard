@@ -9,6 +9,7 @@
 ### CSS
 
 * Changing style for a darker theme
+* Fixing background color issues
 
 <br>
 
